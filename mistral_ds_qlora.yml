@@ -9,7 +9,8 @@ load_in_4bit: true
 strict: false
 
 datasets:
-  - path: jschvey/ds-transcript/
+  - path: /workspace/data/huggingface-cache/hub/datasets--jschvey--ds-transcript/snapshots/9c9763ade
+2a45bda208d3e0712901fda035b3926/transcript_instructs_processed.jsonl
     ds_type: json
     type: alpaca
 
