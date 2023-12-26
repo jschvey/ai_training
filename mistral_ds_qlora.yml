@@ -9,12 +9,12 @@ load_in_4bit: true
 strict: false
 
 datasets:
-  - path: jschvey/ds-transcript/transcript_instructs_processed.jsonl
-    ds_type: json
+  - path: jschvey/ds-transcript/
+    ds_type: alpaca
 
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.01
-output_dir: ./finetuned-model
+output_dir: ./qlora-out
 
 adapter: qlora
 
