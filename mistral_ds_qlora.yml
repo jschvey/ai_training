@@ -20,6 +20,7 @@ adapter: qlora
 
 sequence_len: 256
 sample_packing: True
+eval_sample_packing: False
 pad_to_sequence_len: True
 
 lora_r: 32
