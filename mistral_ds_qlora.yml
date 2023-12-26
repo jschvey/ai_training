@@ -35,7 +35,7 @@ lora_target_modules:
   - v_proj
   - k_proj
   - o_proj
-lora_modules_to_save: embed_tokens
+lora_modules_to_save: ['embed_tokens', 'lm_head']
 
 #Optionally use Weights & Biases for tracking
 wandb_project: mistral-ds
