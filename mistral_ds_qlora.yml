@@ -10,7 +10,8 @@ strict: false
 
 datasets:
   - path: jschvey/ds-transcript/
-    ds_type: alpaca
+    ds_type: json
+    type: alpaca
 
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.01
