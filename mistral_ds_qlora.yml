@@ -35,7 +35,7 @@ lora_modules_to_save: ['embed_tokens', 'lm_head']
 wandb_project: mistral-ds
 
 gradient_accumulation_steps: 1
-micro_batch_size: 10
+micro_batch_size: 20
 num_epochs: 3
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
