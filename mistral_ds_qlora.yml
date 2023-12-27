@@ -14,7 +14,7 @@ datasets:
     type: alpaca
 
 dataset_prepared_path: last_run_prepared
-val_set_size: 0.02
+val_set_size: 0.10
 output_dir: ./qlora-out
 
 adapter: qlora
@@ -55,7 +55,7 @@ warmup_steps: 10
 eval_steps: 25
 eval_table_size: 5
 eval_table_max_new_tokens: 128
-eval_sample_packing: False
+eval_sample_packing: True
 weight_decay: 0.0
 special_tokens:
   bos_token: "<s>"
