@@ -51,12 +51,14 @@ gradient_checkpointing: true
 logging_steps: 1
 flash_attention: true
 
-warmup_steps: 10
-eval_steps: 25
+warmup_steps: 100
+eval_steps: 0.05
+save_steps: 0.25
 #eval_table_size: 5
 eval_table_max_new_tokens: 128
 eval_sample_packing: True
-weight_decay: 0.0
+deepspeed: deepspeed/zero2.json
+weight_decay: 0.1
 special_tokens:
   bos_token: "<s>"
   eos_token: "</s>"
