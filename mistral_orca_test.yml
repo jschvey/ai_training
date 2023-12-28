@@ -1,4 +1,4 @@
-base_model: mistralai/Mistral-7B-v0.1
+ptbase_model: mistralai/Mistral-7B-v0.1
 base_model_config: mistralai/Mistral-7B-v0.1
 model_type: MistralForCausalLM
 tokenizer_type: LlamaTokenizer
@@ -10,11 +10,11 @@ strict: false
 
 datasets:
   - path: Open-Orca/SlimOrca
-    ds_type: json
-    type: alpaca
+    ds_type: sharegpt
+    type: chatml
 
 dataset_prepared_path: last_run_prepared
-val_set_size: 0.10
+val_set_size: 0.005
 output_dir: ./qlora-out
 
 adapter: qlora
