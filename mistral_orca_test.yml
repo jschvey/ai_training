@@ -32,7 +32,7 @@ lora_modules_to_save: ['embed_tokens', 'lm_head']
 
 
 #Optionally use Weights & Biases for tracking
-wandb_project: mistral-ds
+wandb_project: mistral-orca-test
 
 gradient_accumulation_steps: 1
 micro_batch_size: 5
