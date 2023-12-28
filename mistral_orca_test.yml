@@ -10,8 +10,8 @@ strict: false
 
 datasets:
   - path: Open-Orca/SlimOrca
-    ds_type: sharegpt
-    type: chatml
+    type: sharegpt
+    conversation: chatml
 
 dataset_prepared_path: last_run_prepared
 val_set_size: 0.005
