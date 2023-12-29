@@ -43,6 +43,10 @@ lora_target_modules:
 
 #Optionally use Weights & Biases for tracking
 wandb_project: mistral-orca-test
+wandb_entity:
+wandb_watch:
+wandb_name:
+wandb_log_model: checkpoint
 
 gradient_accumulation_steps: 1
 micro_batch_size: 5
